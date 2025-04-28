@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PhishBuster</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <header>
+    <h2>PhishBuster</h2>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#scan">Scan</a>
+      <a href="#awareness">Learn</a>
+      <a href="#history">History</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Detect Phishing. Stay Safe Online.</h1>
+    <p>PhishBuster is your friendly phishing detection and education platform.</p>
+    <button class="cta-button">Start Scanning</button>
+  </section>
+
+  <section class="section" id="about">
+    <div class="card">
+      <h3>About PhishBuster</h3>
+      <p>
+        PhishBuster empowers users to identify suspicious emails and links, while also learning how to spot threats in
+        the future. It's fast, free, and user-friendly.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" id="scan">
+    <div class="card">
+      <h3>Scan Your Email or URL</h3>
+      <input id="urlInput" type="text" placeholder="Paste your URL or email here" style="width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 8px;">
+      <button id="scanButton" class="cta-button" style="margin-top: 1rem;">Scan Now</button>
+      <p id="scanResult" style="margin-top: 1rem; font-weight: bold;"></p>
+
+    </div>
+  </section>
+
+  <section class="section" id="history" style="background-color: #FFF1E6;">
+    <div class="card">
+      <h3>Scan History</h3>
+      <ul id="historyList" style="padding-left: 1.2rem;">
+        <!-- Scanned URLs will appear here -->
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="awareness">
+    <div class="card">
+      <h3>Phishing Awareness</h3>
+      <p>Learn how to spot phishing red flags, protect your personal data, and understand how cyber scams work. Knowledge is power!</p>
+
+    <h4 style="margin-top: 1.5rem;">🔎 Common Signs of Phishing:</h4>
+    <ul style="padding-left: 1.2rem;">
+      <li>Suspicious email addresses (e.g., support-paypal123@gmail.com)</li>
+      <li>Urgent language ("Your account will be suspended!")</li>
+      <li>Unfamiliar or mismatched URLs</li>
+      <li>Asking for sensitive information (passwords, OTPs)</li>
+      <li>Too-good-to-be-true offers</li>
+    </ul>
+
+    <h4 style="margin-top: 1.5rem;">✅ Tips to Stay Safe:</h4>
+    <ul style="padding-left: 1.2rem;">
+      <li>Always double-check sender's email and URL.</li>
+      <li>Hover over links before clicking.</li>
+      <li>Use multi-factor authentication.</li>
+      <li>Keep your software and antivirus updated.</li>
+      <li>When in doubt, verify directly from official websites.</li>
+    </ul>
+
+    <h4 style="margin-top: 1.5rem;">🚨 Example of Phishing vs Legit URL:</h4>
+    <p><strong>Phishing:</strong> http://paypal-login-security.com</p>
+    <p><strong>Legit:</strong> https://www.paypal.com</p>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 PhishBuster | Built with ❤️ for awareness</p>
+  </footer>
+</body>
+
+</html>
